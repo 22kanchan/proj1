@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+  <title>MyHealth</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,27 +28,27 @@
                 <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav">
             <li>
-              <a href="menu-categories.html">
+              <a href="Dashboard.html">
                 <span class="fa fa-pie-chart"></span><br class="hidden-xs"> Dashboard</a>
             </li>
             <li>
-              <a href="#">
+              <a href="Appointment.html">
                 <span class="fa fa-calendar"></span><br class="hidden-xs"> Appointments</a>
             </li>
             <li>
-              <a href="#">
+              <a href="Messages.html">
                 <span class="fa fa-comments-o"></span><br class="hidden-xs"> Messages</a>
             </li>
             <li>
-              <a href="#">
+              <a href="MyHealth.html">
                 <span class="fa fa-heart-o"></span><br class="hidden-xs"> My Health</a>
             </li>
             <li>
-              <a href="#">
+              <a href="MyProfile.html">
                 <span class="fa fa-user-o"></span><br class="hidden-xs"> My Profile</a>
             </li>
             <li>
-              <a href="#">
+              <a href="MyDocument.html">
                 <span class="fa fa-file-text-o"></span><br class="hidden-xs"> My Documents</a>
             </li>
             
@@ -69,18 +70,18 @@
         </div>
       </div>
         </nav>
-    </header>
+    
 
 
 <!--====================================
        Content
 =======================================-->       
 
-<div class="container">
+<div id = "main-container" class="container container1 content">
 	<div class="no-gutter row">
       		      			
       		<!--mid column-->
-      		<div class="col-md-3">
+      		<div class="col-md-3 col-sm-3">
               <div class="panel" id="midCol">
                 <div class="panel-heading" style="background-color:#efefef;"">Basic Info</div> 
                 <div class="panel-body">
@@ -89,44 +90,47 @@
                   <div class="well">
 
                           <img src="Images/Profile.jpg" class="img-responsive" style="width: 100%;">
-                          <div class="row">
-                               <div class="col-xs-6">Fullname</div>
+                               
+                               <div class="row">
+                               <div class="col-xs-6">Fullname:-</div>
                                <div class="col-xs-6">Name</div>
                                </div>
               
                                 <div class="row">
-                                <div class="col-xs-6">Age</div>
+                                <div class="col-xs-6">Age:-</div>
                                 <div class="col-xs-6"></div>
                                 </div>
   
                                 <div class="row">
-                                <div class="col-xs-6">Gender</div>
+                                <div class="col-xs-6">Gender:-</div>
                                 <div class="col-xs-6">Female</div>
                                 </div>
                                 
                                 <div class="row">
-                                <div class="col-xs-6">Height</div>
+                                <div class="col-xs-6">Height:-</div>
                                 <div class="col-xs-6"></div>
                                 </div>
 
                                 <div class="row">
-                                <div class="col-xs-6">Weight</div>
+                                <div class="col-xs-6">Weight:-</div>
                                 <div class="col-xs-6"></div>
                                 </div>
   
                                 <div class="row">
-                                <div class="col-xs-6">Blood Type</div>
+                                <div class="col-xs-6">Blood Type:-</div>
                                 <div class="col-xs-6"></div>
                                 </div>
                       </div>      
                   
                   
                </div> 
-               </div><!--/panel-->
-      		</div><!--/end mid column-->
+               </div>
+      		</div>
       		
-      		<!-- right content column-->
-      		<div class="col-md-7" id="content" style="margin-bottom:-20px;">
+      		
+
+
+      		<div class="col-md-9 col-sm-9" id="content" style="margin-bottom:-20px;">
             	<div class="panel">
     			<div class="panel-heading" style="background-color:#efefef;">Vital Stats</div>   
               	<div class="panel-body">
@@ -135,17 +139,17 @@
                   <div class="col col-sm-4">
                   
                   <div class="well text-center"> 
-                    <br><br>              
+                                
                   </div>
-                  </div><!--/panel-body-->
-                </div><!--/panel-->
-              	<!--/end right column-->
+                  </div>
+                 </div>
+              	
               	</div> 
   	</div>
 </div>
 
 
-<div class="col-md-7" id="content" style="margin-bottom: -20px">
+<div class="col-md-9 col-sm-9" id="content" style="margin-bottom: -20px">
             	<div class="panel">
     			<div class="panel-heading" style="background-color:#efefef;">Current Allergies</div>   
               	<div class="panel-body">
@@ -153,20 +157,20 @@
                   <div class="row">
                   <div class="col col-sm-4">
                   <div class="well text-center"> 
-                    <br><br>
+                    
                     
                   </div>
                   
-                 </div><!--/panel-body-->
-                </div><!--/panel-->
-              	<!--/end right column-->
+                 </div>
+                </div>
+              	
               	</div> 
   	</div>
 </div>
 
 
 
-<div class="col-md-7" id="content" style="margin-bottom: -20px">
+<div class="col-md-9 col-sm-9" id="content" style="margin-bottom: -20px">
             	<div class="panel">
     			<div class="panel-heading" style="background-color:#efefef;">Current Medication</div>   
               	<div class="panel-body">
@@ -174,15 +178,24 @@
                   <div class="row">
                   <div class="col col-sm-4">                 
                   <div class="well text-center"> 
-                    <br><br>
+                  
                     
                   </div>     
-                  </div><!--/panel-body-->
-                </div><!--/panel-->
-              	<!--/end right column-->
+                  </div>
+                </div>
               	</div> 
   	</div>
 </div>
 
+
+
+</div>
+</div>
+<script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+</header>
 </body>
 </html>
